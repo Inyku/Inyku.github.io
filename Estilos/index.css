@@ -1,0 +1,62 @@
+h1{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(201, 184, 214, 0.973);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.principal{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 500px;
+    background-color: rgb(246, 250, 253);
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.959);
+}
+.principal .parteIzq{
+    position: relative;
+    background-color: rgb(118, 89, 150);
+    padding: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.perfil{
+    position: relative;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(238, 7, 149)
+}
+.perfil h2{
+    font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.perfil .foto{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: inherit;
+}
+.parteDerecha{
+    position: relative;
+    background-color: hsl(264, 17%, 94%);
+    padding: 40px;
+}
+button#boton{
+    margin-right: 20px;
+    margin-left: 150px;
+}
+.Envio{
+    margin-right: 20px;
+    margin-left: 150px;
+}
